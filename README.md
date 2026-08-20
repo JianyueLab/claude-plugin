@@ -36,7 +36,7 @@ Two values: the portal **origin** and a portal API key (`jyl-…`, from the
 portal's *API keys* page). Either export them —
 
 ```sh
-export JYL_USAGE_BASE_URL="https://llm.jianyuelab.co"
+export JYL_USAGE_BASE_URL="https://llm.jianyuelab.net"
 export JYL_API_KEY="jyl-…"
 ```
 
@@ -44,7 +44,7 @@ export JYL_API_KEY="jyl-…"
 
 ```json
 {
-  "baseUrl": "https://llm.jianyuelab.co",
+  "baseUrl": "https://llm.jianyuelab.net",
   "apiKey": "jyl-…"
 }
 ```

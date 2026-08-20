@@ -22,7 +22,7 @@ reporting, say why and point at the fix:
   in the shell, or write `~/.claude/jyl-usage/config.json`:
 
   ```json
-  { "baseUrl": "https://llm.jianyuelab.co", "apiKey": "jyl-…" }
+  { "baseUrl": "https://llm.jianyuelab.net", "apiKey": "jyl-…" }
   ```
 
   Portal keys come from the portal's **API keys** page.
