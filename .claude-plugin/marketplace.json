@@ -1,0 +1,22 @@
+{
+  "name": "jianyuelab-claude",
+  "owner": {
+    "name": "JianyueLab"
+  },
+  "metadata": {
+    "description": "JianyueLab internal (private) Claude Code plugins. Not for public distribution — install from an internal clone."
+  },
+  "plugins": [
+    {
+      "name": "jyl-usage",
+      "source": "./",
+      "description": "Reports Claude Code token usage to the JianyueLab LLM portal (llm-web).",
+      "version": "0.1.0",
+      "category": "productivity",
+      "tags": [
+        "usage",
+        "metrics"
+      ]
+    }
+  ]
+}
