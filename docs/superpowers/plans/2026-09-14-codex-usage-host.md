@@ -347,7 +347,7 @@ bun test tests/codex-parse.test.js
 | 变异 | 应该红的 |
 |---|---|
 | `delta.input - delta.cached` 改成 `delta.input` | input excludes the cached portion |
-| `delta.output` 改成 `delta.output + reasoning` | output keeps reasoning |
+| output 里把 reasoning 再加一遍(`totalsOf` 本来就不解析 `reasoning_output_tokens`——§5.5 说明它已含在 output 里、不单独上报——所以这条变异要临时把它接进来再加上去) | output keeps reasoning |
 | 首条改成 `total - 0` | first token_count uses last_token_usage |
 | 回退分支去掉 `lastTotal = total` | a decreasing total is clamped AND rebases |
 | `info` 为 null 时 `continue` 放到 `seen += 1` 之前 | info: null still consumes an ordinal |
